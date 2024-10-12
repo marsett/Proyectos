@@ -9,27 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Navbar Template · Bootstrap v5.3</title>
+    <title>Fixed top navbar example · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
+    <!-- Cambios -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <!-- <link href="css/customstyles.css" rel="stylesheet"> -->
     <meta name="theme-color" content="#712cf9">
 
-    <link href="css/customstyles.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
-    <link href="navbars-offcanvas.css" rel="stylesheet">
+    <!-- <link href="css/navbar-fixed.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -101,75 +90,121 @@
         </ul>
     </div>
 
-
-    <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">jQuery CRUD Pokemon</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
-                    aria-labelledby="offcanvasNavbar2Label">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3 mt-lg-0" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container my-5">
-            <div class="bg-body-tertiary p-5 rounded">
-                <div class="col-sm-8 py-5 mx-auto">
-                    <h1 class="display-5 fw-normal">Navbar with offcanvas examples</h1>
-                    <p class="fs-5">This example shows how responsive offcanvas menus work within the navbar. For
-                        positioning of navbars, checkout the <a href="/docs/5.3/examples/navbar-static/">top</a> and <a
-                            href="/docs/5.3/examples/navbar-fixed/">fixed top</a> examples.</p>
-                    <p>From the top down, you'll see a dark navbar, light navbar and a responsive navbar—each with
-                        offcanvases built in. Resize your browser window to the large breakpoint to see the toggle for
-                        the offcanvas.</p>
-                    <p>
-                        <a class="btn btn-primary" href="/docs/5.3/components/navbar/#offcanvas" role="button">Learn
-                            more about offcanvas navbars &raquo;</a>
-                    </p>
-                </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hospitales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="web26indexhospitales.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="web26createhospital.html">New hospital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
+    </nav>
+
+    <main class="container">
+        <div class="bg-body-tertiary p-5 rounded">
+            <h1>CRUD Libros</h1>
+            <table id="tablalibros" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Año de publicación</th>
+                        <th>Género</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
     </main>
+
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    <!-- <script src="js/sweetalert2.all.min.js"></script> -->
+    <script>
+        let urlLocalhost = "https://localhost:44372/";
+        $(document).ready(function () {
+            cargarLibros();
+        });
 
+        function cargarLibros() {
+            var request = "api/Libros";
+            $.ajax({
+                url: urlLocalhost + request,
+                type: "GET",
+                contentType: "application/json",
+                success: function (data) {
+                    var html = "";
+                    $.each(data, function (index, libro) {
+                        html += "<tr>";
+                        html += "<td>" + libro.titulo + "</td>";
+                        html += "<td>" + libro.autor + "</td>";
+                        html += "<td>" + libro.anoPublicacion + "</td>";
+                        html += "<td>" + libro.genero + "</td>";
+                        html += "<td>";
+                        html += "<a href='edit.html?idhospital=" + libro.id + "'>Editar </a>";
+                        html += "<a href='#' onclick='deleteHospital(" + libro.id + ")'>Delete</a>";
+                        html += "</td>";
+                        html += "</tr>";
+                    });
+                    $("#tablalibros tbody").html(html);
+                }
+            });
+        }
+
+        function deleteHospital(idhospital) {
+            //let respuesta = window.confirm("¿Desea eliminar el hospital " + idhospital + "?");
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    var requestDelete = "webresources/hospitales/delete/" + idhospital;
+                    $.ajax({
+                        url: urlHospital + requestDelete,
+                        type: "DELETE",
+                        success: function () {
+                            console.log("Deleted");
+                            loadHospitales();
+                        }
+                    });
+                }
+            });
+            /*if (respuesta == true) {
+                var requestDelete = "webresources/hospitales/delete/" + idhospital;
+                $.ajax({
+                    url: urlHospital + requestDelete,
+                    type: "DELETE",
+                    success: function () {
+                        console.log("Deleted");
+                        loadHospitales();
+                    }
+                });
+            }*/
+        }
+    </script>
 </body>
 
 </html>
