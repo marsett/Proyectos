@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DespensaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6814f7512295c6b0c586fe1c1a9d69f518418d51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5198c01421e3fba248769b1e3d191777be16dc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DespensaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DespensaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

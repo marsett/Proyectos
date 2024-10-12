@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\DespensaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\despensaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\despensaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\despensaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C8C803-8696-444D-A4EA-8E447E2A99A2}|DespensaAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\despensaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\DespensaAPI\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
               "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\DespensaAPI\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T16:16:09.341Z",
               "EditorCaption": ""
@@ -60,24 +68,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\DespensaAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\DespensaAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T15:57:08.112Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
