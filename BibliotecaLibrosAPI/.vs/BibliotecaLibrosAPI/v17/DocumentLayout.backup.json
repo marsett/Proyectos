@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\bibliotecalibrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\bibliotecalibrosapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\bibliotecalibrosapi\\migrations\\20241012095544_primera_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|solutionrelative:migrations\\20241012095544_primera_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\bibliotecalibrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0CAB284-3E48-4758-82DD-3A7DF50BC700}|BibliotecaLibrosAPI.csproj|c:\\users\\jimen\\source\\repos\\marsett\\proyectos\\bibliotecalibrosapi\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20241012095544_primera_migracion.cs",
+              "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Migrations\\20241012095544_primera_migracion.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241012095544_primera_migracion.cs",
+              "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Migrations\\20241012095544_primera_migracion.cs",
+              "RelativeToolTip": "Migrations\\20241012095544_primera_migracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T09:40:38.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LibrosController.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Context\\ApplicationDbContext.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Models\\Libro.cs",
               "RelativeDocumentMoniker": "Models\\Libro.cs",
@@ -77,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jimen\\source\\repos\\marsett\\Proyectos\\BibliotecaLibrosAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T09:36:17.321Z",
               "EditorCaption": ""
