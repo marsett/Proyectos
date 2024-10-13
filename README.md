@@ -1,2 +1,2 @@
-Aquí se muestran mis proyectos más ilustres hasta el momento.
+Aquí se muestran mis proyectos personales hasta el momento.
 ¡Espero que te gusten!
