@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaLibrosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5198c01421e3fba248769b1e3d191777be16dc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00895bbb129a77b68a2882b590b89123fa5ec1bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaLibrosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaLibrosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
