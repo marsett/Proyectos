@@ -16,7 +16,6 @@ Asegúrate de tener instalados los siguientes programas:
 - **[.NET SDK](https://dotnet.microsoft.com/download)**: Necesario para compilar y ejecutar la API.
 - **[Visual Studio](https://visualstudio.microsoft.com/)**: Recomendado para el desarrollo de la API (también puedes usar otro IDE compatible con ASP.NET).
 - **[Visual Studio Code](https://code.visualstudio.com/)**: Recomendado para editar el proyecto del CRUD en jQuery.
-- **[Node.js](https://nodejs.org/)** (opcional): Útil si necesitas herramientas de frontend.
 
 ## Instrucciones para la Configuración
 
